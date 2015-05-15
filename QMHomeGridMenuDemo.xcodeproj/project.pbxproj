@@ -14,6 +14,8 @@
 		837B1B8F1B04A860008D05F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837B1B8E1B04A860008D05F3 /* Images.xcassets */; };
 		837B1B921B04A860008D05F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837B1B901B04A860008D05F3 /* LaunchScreen.xib */; };
 		837B1B9E1B04A860008D05F3 /* QMHomeGridMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837B1B9D1B04A860008D05F3 /* QMHomeGridMenuDemoTests.m */; };
+		837B1BAD1B04A8BF008D05F3 /* QMHomeGridMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837B1BAA1B04A8BF008D05F3 /* QMHomeGridMenuView.m */; };
+		837B1BAE1B04A8BF008D05F3 /* QMHomeGridMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 837B1BAC1B04A8BF008D05F3 /* QMHomeGridMenuViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		837B1B971B04A860008D05F3 /* QMHomeGridMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMHomeGridMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837B1B9C1B04A860008D05F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		837B1B9D1B04A860008D05F3 /* QMHomeGridMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMHomeGridMenuDemoTests.m; sourceTree = "<group>"; };
+		837B1BA91B04A8BF008D05F3 /* QMHomeGridMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMHomeGridMenuView.h; sourceTree = "<group>"; };
+		837B1BAA1B04A8BF008D05F3 /* QMHomeGridMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMHomeGridMenuView.m; sourceTree = "<group>"; };
+		837B1BAB1B04A8BF008D05F3 /* QMHomeGridMenuViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMHomeGridMenuViewCell.h; sourceTree = "<group>"; };
+		837B1BAC1B04A8BF008D05F3 /* QMHomeGridMenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMHomeGridMenuViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		837B1B751B04A860008D05F3 = {
 			isa = PBXGroup;
 			children = (
+				837B1BA81B04A8BF008D05F3 /* QMHomeGridMenu */,
 				837B1B801B04A860008D05F3 /* QMHomeGridMenuDemo */,
 				837B1B9A1B04A860008D05F3 /* QMHomeGridMenuDemoTests */,
 				837B1B7F1B04A860008D05F3 /* Products */,
@@ -117,6 +124,17 @@
 				837B1B9C1B04A860008D05F3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		837B1BA81B04A8BF008D05F3 /* QMHomeGridMenu */ = {
+			isa = PBXGroup;
+			children = (
+				837B1BA91B04A8BF008D05F3 /* QMHomeGridMenuView.h */,
+				837B1BAA1B04A8BF008D05F3 /* QMHomeGridMenuView.m */,
+				837B1BAB1B04A8BF008D05F3 /* QMHomeGridMenuViewCell.h */,
+				837B1BAC1B04A8BF008D05F3 /* QMHomeGridMenuViewCell.m */,
+			);
+			path = QMHomeGridMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837B1BAD1B04A8BF008D05F3 /* QMHomeGridMenuView.m in Sources */,
 				837B1B8A1B04A860008D05F3 /* ViewController.m in Sources */,
+				837B1BAE1B04A8BF008D05F3 /* QMHomeGridMenuViewCell.m in Sources */,
 				837B1B871B04A860008D05F3 /* AppDelegate.m in Sources */,
 				837B1B841B04A860008D05F3 /* main.m in Sources */,
 			);
